@@ -113,3 +113,10 @@ def test_find_middle_even_and_odd() -> None:
     ll.append(60)
     # even length -> left middle (index len//2 - 1) -> index 2 -> 30
     assert ll.find_middle() == 30
+
+test_find_middle_empty()
+test_insert_head_and_to_list()
+test_append()
+test_delete_head_and_middle()
+test_reverse_cases()
+test_find_middle_even_and_odd()
